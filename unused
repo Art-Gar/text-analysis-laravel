@@ -1,0 +1,5 @@
+        <select name="metrika">
+            @foreach($metrics as $metric)
+                <option value = "{{$metric}}"> {{$metric}} </option>
+            @endforeach
+        </select>
